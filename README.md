@@ -1,4 +1,4 @@
-![](https://github.com/ok3-8/react16-webpack4-bable7/raw/master/src/assets/demo-show.png)
+![](https://github.com/ok3-8/react16-typescript3-webpack4/raw/master/src/assets/demo-show.png)
 
 <p align="center">
   <img src="https://img.shields.io/badge/react-16.8-green.svg">
@@ -59,7 +59,8 @@ npm i react react-dom react-router-dom --save
 ## 安装 TypeScript3
 
 ```
-npm i typescript @types/node @types/react @types/react-dom @types/webpack awesome-typescript-loader source-map-loader -D
+npm i typescript @types/node @types/react @types/react-dom -D
+npm i @types/webpack awesome-typescript-loader source-map-loader -D
 ```
 
 ## 说明
