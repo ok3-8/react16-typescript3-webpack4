@@ -16,7 +16,30 @@
 
 :: 2019 ::
 
-## 项目初始化
+这篇指南将会教你如何将`TypeScript3`和`React16`还有`webpack4`结合在一起使用。
+如果你正在做一个全新的工程，可以先阅读这篇`React16`快速上手指南。
+否则，我们假设已经在使用`Node.js`和`npm`。
+
+## 初始化项目结构
+
+让我们新建一个目录。 将会命名为 `myproject`，但是你可以改成任何你喜欢的名字。
+```
+mkdir myproject
+cd myproject
+```
+
+我们会像下面的结构组织我们的工程：
+
+```
+myproject/
+├─ dist/
+└─ src/
+   └─ components/
+```
+
+TypeScript文件会放在src文件夹里，通过TypeScript编译器编译，然后经webpack处理，最后生成一个bundle.js文件放在dist目录下。 我们自定义的组件将会放在 src/components文件夹下。
+
+## 初始化工程
 
 通过`npm init -y`初始化项目，生成package.json文件
 
